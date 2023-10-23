@@ -277,7 +277,7 @@ for (var printTreeID = 0; printTreeID < numberOfTrees; printTreeID++) {
 			</div>\
 		</td>\
 		<td>\
-			<div style = "position:relative; left:0px;"><a '+ resetDisplay +' id = "hideReset'+ printTreeID +'" href = "#none" onclick = "resetTree('+ printTreeID +')"><img src = "'+ imgPath +'/includes/images/reset.png" border = "0"></a></div>\
+		<div class="resebuild" style = "position:relative; left:0px;"><div '+ resetDisplay +' id = "hideReset'+ printTreeID +'" onclick = "resetTree('+ printTreeID +')">Resetar</div></div>\
 		</td>\
 		<td class = "tablebotrightright"></td>\
 	</tr>\
@@ -326,11 +326,11 @@ massiveReplaceString += "</table>";
 
 massiveReplaceString += '<img src = "'+ pixelGif +'" height = "10" width = "300">';
 
-massiveReplaceString += '<table border = "0" cellpadding = "0" cellspacing = "0" width = "100%"><tr><td width = "100%"><a onClick = "printableVersion();" style="cursor:pointer"><img src = "'+ imgPath +'/includes/images/printableversion.png" border = "0"></a></td>';
+massiveReplaceString += '';
 
-massiveReplaceString += '<td><a href = #none onClick=resetTreeAll()><img src = \"'+ imgPath +'/includes/images/resetall.png\" border = 0></a></td>';
+massiveReplaceString += '<div id="reset-all" onClick=resetTreeAll()>Resetar Tudo</a></div><div id = "copybtn2" onclick = "copiarTexto()">Copiar Link</div>';
 
-massiveReplaceString += "</table>";
+massiveReplaceString += "";
 
 //box bottom
 massiveReplaceString += '</td></tr>';
@@ -344,7 +344,7 @@ massiveReplaceString += "</table>";
 
 massiveReplaceString += '<br><span style = "color: #ffffff;"><span style = "font-weight: bold;">'+ textToSave +'</span></span><br>';
 
-massiveReplaceString += '<span style = "color:ffd800;">'+ theURLtoCopy +'?tal=<span id = "copyURL" style = "color:ffd800"></span></span><br></div>';
+massiveReplaceString += '<div id = "container-link"><span id = "dk" style = "color:ffd800;">'+ theURLtoCopy +'?tal=<span id = "copyURL" style = ""></span></span></div></div>';
 
 
 

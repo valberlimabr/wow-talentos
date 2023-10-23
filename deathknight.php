@@ -33,8 +33,9 @@ include("inc/header.php");
 <script type="text/javascript">
 var pageId = "deathknight";
 var variableIsSite = 1;
-var theURLtoCopy = "<?php echo 'https://'.$_SERVER['HTTP_HOST'].$_SERVER['SCRIPT_NAME']; ?>";
+var theURLtoCopy = "<?php echo 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['SCRIPT_NAME']; ?>";
 </script>
+<script type="text/javascript" src="talents/copylink.js"></script>
 <script type="text/javascript" src="talents/Deathknight/detection.js"></script>
 <script type="text/javascript" src="talents/Deathknight/variables.js"></script>
 <script type="text/javascript" src="talents/Deathknight/functions.js"></script>
@@ -47,30 +48,5 @@ var theURLtoCopy = "<?php echo 'https://'.$_SERVER['HTTP_HOST'].$_SERVER['SCRIPT
 <?PHP
 include("add.php");
 ?>
-    <script>
-        function copiarTexto() {
-            // Seleciona o elemento com o ID "dk"
-            var divElement = document.getElementById("dk");
-
-            // Cria um elemento de texto temporário para armazenar o texto da div
-            var textoTemporario = document.createElement("textarea");
-            textoTemporario.value = divElement.textContent;
-
-            // Adiciona o elemento de texto temporário ao corpo do documento
-            document.body.appendChild(textoTemporario);
-
-            // Seleciona o texto no elemento de texto temporário
-            textoTemporario.select();
-
-            // Copia o texto selecionado para a área de transferência
-            document.execCommand("copy");
-
-            // Remove o elemento de texto temporário
-            document.body.removeChild(textoTemporario);
-
-            // Notifica o usuário que o texto foi copiado
-            alert("O Link foi copiado com sucesso!");
-        }
-    </script>
 </body>
 </html>

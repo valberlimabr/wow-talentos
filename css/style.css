@@ -1,19 +1,26 @@
 body {
-    background: url(https://wowtalentos.000webhostapp.com/images/bg.webp) center center/cover no-repeat fixed;
+    background: url(/images/bg.webp) center center/cover no-repeat fixed;
 }
-#copybtn {
-  background-color: #008CBA; 
-  border: 1px solid #e7e7e7;
-  border-radius:8px;
-  color: white;
-  padding: 10px ;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin-top:8px;
+#reset-all {
+    background-color: #008CBA; 
+    border: 1px solid #e7e7e7;
+    text-align: center;
+    padding: 5px;
 }
-#copybtn:hover {
+.resebuild {
+    background-color: #df0808; 
+    padding: 3px;
+    border-radius: 3px;
+}
+#copybtn2 {
+    background-color: #008CBA; 
+    border: 1px solid #e7e7e7;
+    text-align: center;
+    padding: 5px;
+    margin-top: 8px;
+}
+
+#reset-all:hover, #copybtn2:hover {
     background-color: #067396; 
     cursor:pointer;
 }
@@ -36,7 +43,9 @@ display: -webkit-box;
      padding:10px;
      border-radius:8px;
 }
+section {text-align: center;}
 .index-table {
+    margin: 0 auto;
      width:70%;
      padding:10px;
      border-radius:18px;

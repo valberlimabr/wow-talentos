@@ -3,16 +3,16 @@ var lg = "/en"; // Example: /en
 var imgPath = "shared/global/talents";
 var pixelGif = "shared/wow-com/images/layout/pixel.gif";
 
-var textLevelRequired = "Level Required:";
-var textPointsLeft = "Points Left:";
-var textPointsSpent = "Points Spent:";
-var textPoint = "point";
-var textPoints = "points";
+var textLevelRequired = "Level Necessário:";
+var textPointsLeft = "Pontos Restantes:";
+var textPointsSpent = "Pontos Usados:";
+var textPoint = "Ponto";
+var textPoints = "Pontos";
 var textColon = ":";
-var textLeftClick = "Left Click to Learn"
-var textRightClick = "Right Click to Unlearn"
+var textLeftClick = "Click Esquerdo = Learn"
+var textRightClick = "Click Direito = Unlearn"
 var textRankColon = "Rank:"
-var textToSave = "Salve o modelo para referência futura copiando o link abaixo:";
+var textToSave = "Salve o modelo para referência futura clicando em 'Copiar' Link'";
 var textNextRank = "Next Rank:";
 var requiresRequires = "Requires";
 var requiresPointsIn = "points in";

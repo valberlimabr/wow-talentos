@@ -1,9 +1,10 @@
 <html>
 <head>
-<title>MGAWoW | Mage Talents</title>
+<title>WoW Talentos | Mage Talents</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link href="talents/Mage/talent.css" type="text/css" rel="stylesheet">
 <link rel="shortcut icon" href="images/favicon.ico">
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body style="background-color:#30384c">
 <body text="#FFFFFF" vlink="#45ACF6" link="#45ACF6" bgcolor="black" leftmargin="0" topmargin="0" marginheight="0" marginwidth="0">
@@ -34,6 +35,7 @@ var pageId = "Mage";
 var variableIsSite = 1;
 var theURLtoCopy = "<?php echo 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['SCRIPT_NAME']; ?>";
 </script>
+<script type="text/javascript" src="talents/copylink.js"></script>
 <script type="text/javascript" src="talents/Mage/detection.js"></script>
 <script type="text/javascript" src="talents/Mage/variables.js"></script>
 <script type="text/javascript" src="talents/Mage/functions.js"></script>

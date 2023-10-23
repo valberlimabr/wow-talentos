@@ -1,9 +1,10 @@
 <html>
 <head>
-<title>MGAWoW | Druid Talents</title>
+<title>WoW Talentos | Druid Talents</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link href="talents/Druid/talent.css" type="text/css" rel="stylesheet">
 <link rel="shortcut icon" href="images/favicon.ico">
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body style="background-color:#30384c">
 <body text="#FFFFFF" vlink="#45ACF6" link="#45ACF6" bgcolor="black" leftmargin="0" topmargin="0" marginheight="0" marginwidth="0">
@@ -34,6 +35,7 @@ var pageId = "Druid";
 var variableIsSite = 1;
 var theURLtoCopy = "<?php echo 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['SCRIPT_NAME']; ?>";
 </script>
+<script type="text/javascript" src="talents/copylink.js"></script>
 <script type="text/javascript" src="talents/Druid/detection.js"></script>
 <script type="text/javascript" src="talents/Druid/variables.js"></script>
 <script type="text/javascript" src="talents/Druid/functions.js"></script>
