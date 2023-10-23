@@ -344,7 +344,10 @@ massiveReplaceString += "</table>";
 
 massiveReplaceString += '<br><span style = "color: #ffffff;"><span style = "font-weight: bold;">'+ textToSave +'</span></span><br>';
 
-massiveReplaceString += '<span style = "color:ffd800;">'+ theURLtoCopy +'?tal=<span id = "copyURL" style = "color:ffd800"></span></span><br></div>';
+massiveReplaceString += '';
+
+
+massiveReplaceString += '<div id = "container-link"><span id = "dk" style = "color:ffd800;">'+ theURLtoCopy +'?tal=<span id = "copyURL" style = ""></span></span><button id = "copybtn" onclick = "copiarTexto()">Copiar Link</button></div></div>';
 
 
 
